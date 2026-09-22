@@ -21,6 +21,7 @@ import {
 import { useState } from "react";
 
 const EBAY_LISTING_URL = "https://www.ebay.co.uk/sch/i.html?_nkw=35pt+toploader+25+pack";
+const ASSET_BASE = import.meta.env.BASE_URL;
 
 const specs = [
   { value: "35PT", label: "Card thickness compatibility", index: "01" },
@@ -214,7 +215,7 @@ export default function Home() {
             </div>
             <img
               className="hero-product-image"
-              src="/product-pack-single-hero.jpg"
+              src={`${ASSET_BASE}product-pack-single-hero.jpg`}
               alt="PIXEL CARD 35PT Toploader 25 pack displayed in black packaging"
             />
             <div className="material-frame frame-a" />
@@ -273,7 +274,7 @@ export default function Home() {
         <section id="specifications" className="specs section-anchor" aria-labelledby="specs-title">
           <div className="specs-image-panel">
             <img
-              src="/product-pack-duo.jpg"
+              src={`${ASSET_BASE}product-pack-duo.jpg`}
               alt="Two PIXEL CARD Toploader packs showing clear rigid card holders and packaging"
             />
             <div className="image-overlay-spec"><span>01 / MATERIAL STUDY</span><b>HIGH-CLARITY<br />RIGID PVC</b></div>
@@ -346,7 +347,7 @@ export default function Home() {
         <section className="collection" aria-labelledby="collection-title">
           <div className="collection-photo">
             <img
-              src="/product-pack-single.png"
+              src={`${ASSET_BASE}product-pack-collection.jpg`}
               alt="PIXEL CARD Toploader pack with clear protectors shown on a dark reflective surface"
             />
             <span className="collection-photo-note">COLLECT / STORE / TRADE / SHIP</span>
