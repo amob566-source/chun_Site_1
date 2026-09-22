@@ -214,7 +214,7 @@ export default function Home() {
             </div>
             <img
               className="hero-product-image"
-              src="/product-pack-single.png"
+              src="/product-pack-single-hero.jpg"
               alt="PIXEL CARD 35PT Toploader 25 pack displayed in black packaging"
             />
             <div className="material-frame frame-a" />
@@ -273,7 +273,7 @@ export default function Home() {
         <section id="specifications" className="specs section-anchor" aria-labelledby="specs-title">
           <div className="specs-image-panel">
             <img
-              src="/product-pack-duo.png"
+              src="/product-pack-duo.jpg"
               alt="Two PIXEL CARD Toploader packs showing clear rigid card holders and packaging"
             />
             <div className="image-overlay-spec"><span>01 / MATERIAL STUDY</span><b>HIGH-CLARITY<br />RIGID PVC</b></div>
