@@ -4,6 +4,7 @@ import path from "node:path";
 import { defineConfig } from "vite";
 
 export default defineConfig({
+  base: "/chun_Site_1/",
   plugins: [react(), tailwindcss()],
   resolve: {
     alias: {
